@@ -1,8 +1,7 @@
 package was.httpserver;
 
-public class PageNotFoundException extends RuntimeException{
-
-    PageNotFoundException(String message) {
+public class PageNotFoundException extends RuntimeException {
+    public PageNotFoundException(String message) {
         super(message);
     }
 }
